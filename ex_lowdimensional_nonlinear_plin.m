@@ -2,8 +2,8 @@ clear
 close all
 
 %% Seed
-RandStream.setGlobalStream(RandStream('mt19937ar','seed',100));
-%RandStream.setGlobalStream(RandStream('mt19937ar','seed','shuffle'));
+%RandStream.setGlobalStream(RandStream('mt19937ar','seed',100));
+RandStream.setGlobalStream(RandStream('mt19937ar','seed','shuffle'));
 
 %% Initialize
 mc_runs = 1;
